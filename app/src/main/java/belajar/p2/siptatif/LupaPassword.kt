@@ -40,13 +40,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import belajar.p2.siptatif.ui.theme.MyTheme
-import belajar.p2.siptatif.ui.theme.SIPTATIFTheme
 
 class LupaPassword : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            SIPTATIFTheme {
+            MyTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
