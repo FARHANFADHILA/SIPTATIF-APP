@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SIPTATIF"
+        tools:targetApi="31">
+        <activity
+            android:name=".Profile"
+            android:exported="false"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.SIPTATIF" />
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.SIPTATIF" />
+        <activity
+            android:name=".DetailDosPem"
+            android:exported="false"
+            android:label="@string/title_activity_detail_dos_pem"
+            android:theme="@style/Theme.SIPTATIF" />
+        <activity
+            android:name=".EditDosenPem"
+            android:exported="false"
+            android:label="@string/title_activity_edit_dosen_pem"
+            android:theme="@style/Theme.SIPTATIF" />
+        <activity
+            android:name=".EditDosenUji"
+            android:exported="false"
+            android:label="@string/title_activity_edit_dosen_uji"
+            android:theme="@style/Theme.SIPTATIF" />
+        <activity
+            android:name=".DetailDosenPenguji"
+            android:exported="false"
+            android:label="@string/title_activity_detail_dosen_penguji"
+            android:theme="@style/Theme.SIPTATIF" />
+        <activity
+            android:name=".TambahDosenPenguji"
+            android:exported="false"
+            android:label="@string/title_activity_tambah_dosen_penguji"
+            android:theme="@style/Theme.SIPTATIF" />
+        <activity
+            android:name=".DetailMahasiswa"
+            android:exported="false"
+            android:label="@string/title_activity_detail_mahasiswa"
+            android:theme="@style/Theme.SIPTATIF" />
+        <activity
+            android:name=".Beranda"
+            android:exported="false"
+            android:label="@string/title_activity_beranda"
+            android:theme="@style/Theme.SIPTATIF" />
+        <activity
+            android:name=".ResetPassword"
+            android:exported="false"
+            android:label="@string/title_activity_reset_password"
+            android:theme="@style/Theme.SIPTATIF" />
+        <activity
+            android:name=".LupaPassword"
+            android:exported="false"
+            android:label="@string/title_activity_lupa_password"
+            android:theme="@style/Theme.SIPTATIF" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SIPTATIF">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

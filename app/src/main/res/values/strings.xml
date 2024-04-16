@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SIPTATIF</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_lupa_password">LupaPassword</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_reset_password">ResetPassword</string>
+    <string name="title_activity_beranda">Beranda</string>
+    <string name="title_activity_detail_mahasiswa">DetailMahasiswa</string>
+    <string name="title_activity_tambah_dosen_penguji">TambahDosenPenguji</string>
+    <string name="title_activity_detail_dosen_penguji">DetailDosenPenguji</string>
+    <string name="title_activity_edit_dosen_uji">EditDosenUji</string>
+    <string name="title_activity_edit_dosen_pem">EditDosenPem</string>
+    <string name="title_activity_detail_dos_pem">DetailDosPem</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_profile">Profile</string>
+</resources>
