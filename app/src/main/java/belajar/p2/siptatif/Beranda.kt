@@ -254,7 +254,7 @@ fun Tohome() {
                         val toProfile = Intent(content,Profile::class.java)
                         content.startActivity(toProfile)
                     })
-                    DropdownMenuItem(text = { Text(text = "loggout", color = Color.White)}, onClick = {
+                    DropdownMenuItem(text = { Text(text = "Logout", color = Color.White)}, onClick = {
                         showDialog.value = true
                         })
                 }
